@@ -1,0 +1,175 @@
+.create-div {
+	margin-top: 20vh;
+}
+
+.create-btn {
+	margin-left: 20vw;
+	margin-top: 10vh;
+	width: 40vw;
+}
+
+.create-content{
+	color: white;
+}
+
+
+.div1{
+	background-image: url("../images/space.jpeg");
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+}
+
+#rocket{
+	height: 50vh;
+	width: 40vw;
+	z-index: 1;
+	animation: rocket-animation;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes  rocket-animation{
+	0%   {
+		transform: translate(0vw, 50vh);
+	}
+ 
+  100% {
+	  transform: translate(30vw,-50vh);
+	
+  }
+}
+
+
+/*create content page*/
+
+
+#contentimg{
+		height: 80%;
+		width: 80%;
+	}
+
+
+
+
+@media screen and (max-width:375px) {
+	.signup-btn {
+		height: 5vh;
+	}
+
+	.google {
+		font-size: 70%;
+	}
+
+	.google-img {
+		width: 20vw;
+	}
+	#contentimg{
+		height: 80%;
+		width: 80%;
+	}
+}
+
+@media screen and (min-width:376)and (max-width:450px) {
+	.signup-btn {
+		height: 10vh;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+}
+
+
+@media screen and (min-width:451px) and(max-width:767px) {
+	.signup-btn {
+		height: 5vh;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+	
+}
+
+
+@media screen and (min-width:768px) and(max-width:819px) {
+	.signup-btn {
+		height: 3vh;
+	}
+	
+	.create-btn {
+		margin-left: 5vw;
+		margin-top: 10vh;
+		width: 10vw;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+	
+	.content-card{
+		width: 150%;
+	}
+}
+
+@media screen and (min-width:820px) and (max-width:911px) {
+	.signup-btn {
+		height: 4vh;
+	}
+
+	.create-btn {
+		margin-left: 10vw;
+		margin-top: 10vh;
+		width: 20vw;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+	
+	.content-card{
+		width: 150%;
+	}
+}
+
+@media screen and (min-width:912px) and (max-width:1023px) {
+	.signup-btn {
+		height: 4vh;
+	}
+	
+	.create-btn {
+		margin-left: 10vw;
+		margin-top: 10vh;
+		width: 15vw;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+	.content-card{
+		width: 150%;
+	}
+}
+
+@media screen and (min-width:1024px) {
+	.signup-btn {
+		height: 8vh;
+	}
+	
+	.create-btn {
+		margin-left: 10vw;
+		margin-top: 10vh;
+		width: 10vw;
+	}
+	
+	#contentimg{
+		height: 90%;
+		width: 90%;
+	}
+}
